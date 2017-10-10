@@ -4,7 +4,9 @@
     "cosmos": "NODE_ENV=development ./node_modules/.bin/cosmos",
     "test": "./node_modules/.bin/jest",
     "test:coverage": "./node_modules/.bin/jest --coverage",
-    "update:snapshot": "./node_modules/.bin/jest --updateSnapshot"
+    "update:snapshot": "./node_modules/.bin/jest --updateSnapshot",
+    "deploy": "gh-pages -d cosmos-export",
+    "cosmos-export": "NODE_ENV=production cosmos-export"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
