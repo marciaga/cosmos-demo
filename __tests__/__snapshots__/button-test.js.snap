@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders a button component 1`] = `
+<button
+  foo={false}
+  onClick={[Function]}
+  type="submit"
+>
+  Click me
+</button>
+`;
